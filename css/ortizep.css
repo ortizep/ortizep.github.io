@@ -1,0 +1,39 @@
+body 
+{
+    background: rgba(211, 208, 15, 0.651);
+    color: rgb(44, 51, 143);
+    text-aling: center;
+    font-family: "Courier";
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera
+{
+    background: rgb(49, 56, 148);
+    box box-shadow: 0px 2px 20px 0px #333;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5cm;
+    font-size: 1cm;
+
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1cm;
+    font weight: normal;
+    font-size: 0.5cm;
+}
+
+#container
+{
+    width: 70%;
+    padding: 1cm;
+    text-aling: left;
+    border: 1px solid #000;
+    margin:0, auto;
+    font-size: 10px;
+}
