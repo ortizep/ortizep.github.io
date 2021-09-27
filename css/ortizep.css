@@ -155,7 +155,7 @@ main ul{
 }
 
 .form{
-    min-width: 400px;
+    min-width: 300px;
     flex:1;
     text-align: center;
     padding: 10px;
