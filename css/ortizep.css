@@ -101,6 +101,7 @@ main .content .info-btn{
 }
 
 main .content .info-btn:hover{
+    color: var(--secondary-color);
   background: #fff;
 }
 
@@ -135,12 +136,22 @@ footer .media-icons a:hover{
   display: none;
 }
 
+main ul{
+    list-style: none;
+}
+
+.dates{
+    color: var(--secondary-color);
+    padding: 10px;
+    margin-left: 10px;
+}
+
 .flex-container{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .form{
@@ -148,6 +159,7 @@ footer .media-icons a:hover{
     flex:1;
     text-align: center;
     padding: 10px;
+    
 }
 
 .form__input{
@@ -159,13 +171,12 @@ footer .media-icons a:hover{
     background: transparent;
 }
 .form__input:focus{
-    background: linear-gradient(to botton, transparent, #111);
-    outline: none;
+    outline: 1px solid var(--secondary-color);
     
 }
 
 .form textarea {
-    min-height: 150px;
+    min-height: 100px;
 }
 
 .form-img{
@@ -175,7 +186,7 @@ footer .media-icons a:hover{
 }
 
 .form-img img{
-    width: 60%;
+    width: 40%;
     min-width: 100px;
     margin: auto;
 }
@@ -189,7 +200,6 @@ footer .media-icons a:hover{
 .form input[type="submit"]:hover{
     color: var(--secondary-color);
     background: #fff;
-
 }
 
 
