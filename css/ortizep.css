@@ -84,10 +84,11 @@ main .content .info p{
   color: var(--secondary-color);
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
-main .content .info-btn{
+main .content .info-btn a{
+  
   color: var(--primary-color);
   background: var(--secondary-color);
   text-decoration: none;
@@ -95,12 +96,13 @@ main .content .info-btn{
   font-weight: 700;
   letter-spacing: 2px;
   padding: 10px 20px;
+  margin-left: 80%;
   border-radius: 5px;
   transition: 0.3s;
   transition-property: background;
 }
 
-main .content .info-btn:hover{
+main .content .info-btn a:hover{
     color: var(--secondary-color);
   background: #fff;
 }
@@ -187,7 +189,7 @@ main ul{
 
 .form-img img{
     width: 40%;
-    min-width: 100px;
+    min-width: 300px;
     margin: auto;
 }
 
@@ -205,7 +207,7 @@ main ul{
 
 /* Responsive CSS */
 
-@media (max-width: 960px){
+@media (max-width: 1100px){
   header .navigation{
     display: none;
   }
@@ -268,7 +270,7 @@ main ul{
   }
 
   main .content .info h2{
-    font-size: 45px;
+    font-size: 35px;
     line-height: 50px;
   }
 
@@ -280,7 +282,14 @@ main ul{
   main .content .info p{
     font-size: 14px;
   }
+
+  main .content .info-btn a{
+    font-size: 12px; 
+    padding: 5px;
+    
+  }
 }
+
 
 @media (max-width: 660px){
   main .content .info h2{
@@ -312,6 +321,12 @@ main ul{
 
   main .content .info p{
     font-size: 12px;
+  }
+  main .content .info-btn a{
+    font-size: 12px; 
+    padding: 5px;
+    margin-left: 0;
+    
   }
 }
 
