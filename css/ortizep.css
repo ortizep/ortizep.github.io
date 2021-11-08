@@ -66,6 +66,22 @@ main{
   padding: 0;
 }
 
+.productosYservicios{  
+  border: dotted 10px var(--secondary-color);
+  margin: 20px; 
+}
+
+.productosYservicios a{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productosYservicios a img{
+  width: 1000px;
+  margin: 10px;
+}  
+
 .content{
   padding: 50px;
 }
@@ -363,3 +379,4 @@ main ul{
   main .content .info p{
     font-size: 12px;
   }
+}
