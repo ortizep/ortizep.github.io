@@ -66,21 +66,59 @@ main{
   padding: 0;
 }
 
-.productosYservicios{  
+.pys-image{  
   border: dotted 10px var(--secondary-color);
   margin: 20px; 
 }
 
-.productosYservicios a{  
+.pys-image a{  
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.productosYservicios a img{
+.pys-image a img{
   width: 1000px;
   margin: 10px;
 }  
+
+.pys-info{  
+  border: dotted 10px var(--secondary-color);
+  margin: 20px; 
+}
+
+.pys-info a{  
+  display: block;
+}
+
+.pys-info a img{
+  width: 200px;
+  margin: 10px;
+  float: right;
+}  
+
+.pys-info h1{
+  margin: 10px;
+  color: var(--secondary-color);
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.pys-info p{
+  margin: 15px;
+  color: var(--secondary-color);
+}
+
+.pys-info li{
+  margin: 15px;
+  margin-left: 25px;
+  color: var(--secondary-color);
+}
+
 
 .content{
   padding: 50px;
