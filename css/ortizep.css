@@ -388,6 +388,10 @@ main ul{
     margin-top: 10px;
   }
 
+  .pys-info h2{
+    font-size: 20px;
+  }
+
   .pys-menu{
     display: none;
   }
@@ -447,6 +451,10 @@ main ul{
   .pys-info h1{
     font-size: 35px;
   }
+
+  .pys-info h2{
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 560px){
@@ -477,6 +485,11 @@ main ul{
   .pys-info h1{
     font-size: 25px;
   }
+
+  .pys-info h2{
+    font-size: 12px;
+  }
+
   .pys-info p{
     font-size: 12px;
   }
