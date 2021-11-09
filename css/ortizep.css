@@ -25,6 +25,7 @@ body{
   background-position: center;
 }
 
+
 header{
   background-color: #fff;
   position: relative;
@@ -437,21 +438,20 @@ main ul{
     background: #fff;
     opacity:0.9;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
   #check2:checked ~  main .pys-menu-button a{
     font-weight: 700;
-    margin-right: 0;
-    margin-bottom: 50px;
+    margin-top: 15px;
     letter-spacing: 2px;
   }
 
   #check2:checked ~ main label .close-btn{
+    
+    position: absolute;
     z-index: 2;
-    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -486,17 +486,30 @@ main ul{
     font-size: 14px;
   }
 
+  .pys-info{  
+    border: none;
+    border-top: double 10px var(--secondary-color);
+    margin: 20px;   
+  }
   
+
   .pys-info a img{
     width: 150px;
   }
 
   .pys-info h1{
     font-size: 35px;
+    margin: 0;
   }
 
   .pys-info h2{
     font-size: 15px;
+    margin: 0;
+  }
+
+  .pys-info p{
+    margin: 0;
+    margin-top: 15px;
   }
 }
 
@@ -531,8 +544,11 @@ main ul{
 
   .pys-info h2{
     font-size: 12px;
+    letter-spacing: 1px; 
+    line-height: 10px;
   }
 
+  
   .pys-info p{
     font-size: 12px;
   }
@@ -578,4 +594,5 @@ main ul{
   .pys-info h1{
     font-size: 20px;
   }
+  
 }
