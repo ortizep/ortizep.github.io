@@ -30,10 +30,11 @@ header{
   position: relative;
   top: 0;
   width: 100%;
-  padding: 30px 30px;
+  padding: 10px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: double 10px var(--secondary-color);
 }
 
 label{
@@ -67,8 +68,9 @@ main{
 }
 
 .pys-image{  
-  border: dotted 10px var(--secondary-color);
-  margin: 20px; 
+  background: #fff;
+  border-bottom: double 10px var(--secondary-color);
+  margin: 0; 
 }
 
 .pys-image a{  
@@ -80,18 +82,46 @@ main{
 .pys-image a img{
   width: 100%;
   margin: 10px;
-}  
+} 
+
+.pys-menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #fff;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.pys-menu-button a{
+  color: var(--secondary-color);
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.pys-menu-button :hover{
+  background: var(--primary-color);
+}
 
 .pys-info{  
-  border: dotted 10px var(--secondary-color);
-  margin: 20px; 
+  border: double 10px var(--secondary-color);
+  margin: 20px;   
 }
 
 .pys-info a{  
   display: block;
+  margin-top: 60px;
 }
 
 .pys-info a img{
+  border: double 10px var(--secondary-color);
   width: 200px;
   margin: 10px;
   float: right;
@@ -103,6 +133,17 @@ main{
   font-size: 40px;
   text-transform: uppercase;
   font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.pys-info h2{
+  margin: 10px;
+  color: var(--secondary-color);
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
   letter-spacing: 2px;
   line-height: 60px;
   margin-bottom: 30px;
@@ -266,7 +307,7 @@ main ul{
     display: none;
   }
 
-  label{
+  header label{
     background: #fff;
     width: 10%;
     color: var(--secondary-color);
@@ -278,7 +319,7 @@ main ul{
   }
 
   
-  label .close-btn{
+  header label .close-btn{
     display: none;
   }
 
@@ -314,7 +355,7 @@ main ul{
     display: none;
   }
 
-  label .menu-btn{
+  header label .menu-btn{
     position: absolute;
   }
 
@@ -342,6 +383,44 @@ main ul{
     padding: 5px;
     
   }
+
+  .pys-info a{  
+    margin-top: 10px;
+  }
+
+  .pys-menu{
+    display: none;
+  }
+  
+  main label{
+    background: #fff;
+    width: 100%;
+    color: var(--secondary-color);
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: color;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+  }
+
+  
+  main label .close-btn{
+    display: none;
+  }
+
+  
+  main label .menu-btn{
+    position: sticky;
+    top: 0;
+  }
+
+  
+
+  
+
 }
 
 
@@ -360,6 +439,7 @@ main ul{
     font-size: 14px;
   }
 
+  
   .pys-info a img{
     width: 150px;
   }
