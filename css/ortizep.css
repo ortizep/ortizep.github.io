@@ -233,6 +233,11 @@ footer .media-icons a:hover{
   display: none;
 }
 
+#check2{
+  z-index: 3;
+  display: none;
+}
+
 main ul{
     list-style: none;
 }
@@ -405,7 +410,7 @@ main ul{
     cursor: pointer;
     transition: 0.3s;
     transition-property: color;
-    padding: 10px;
+    padding: 15px;
     position: sticky;
     top: 0;
   }
@@ -422,6 +427,44 @@ main ul{
   }
 
   
+  #check2:checked ~ main .pys-menu{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    opacity:0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #check2:checked ~  main .pys-menu-button a{
+    font-weight: 700;
+    margin-right: 0;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+  }
+
+  #check2:checked ~ main label .close-btn{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    
+  }
+
+  #check2:checked ~ main label .menu-btn{
+    display: none;
+  }
 
   
 
