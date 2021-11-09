@@ -391,7 +391,11 @@ main ul{
   }
 
   .pys-info a{  
-    margin-top: 10px;
+    margin-top: 35px;
+  }
+
+  .pys-menu h1{
+    margin-top:35px;
   }
 
   .pys-info h2{
@@ -429,7 +433,7 @@ main ul{
 
   
   #check2:checked ~ main .pys-menu{
-    z-index: 2;
+    
     position: fixed;
     top: 0;
     bottom: 0;
@@ -492,14 +496,16 @@ main ul{
     margin: 20px;   
   }
   
-
+  
   .pys-info a img{
     width: 150px;
+    margin-top: 30px;
   }
 
   .pys-info h1{
     font-size: 35px;
     margin: 0;
+    margin-top: 30px;
   }
 
   .pys-info h2{
@@ -537,9 +543,12 @@ main ul{
 
   .pys-info a img{
     width: 100px;
+    margin-top: 30px;
   }
   .pys-info h1{
     font-size: 25px;
+    line-height: 20px;
+    margin-top: 50px;
   }
 
   .pys-info h2{
@@ -593,6 +602,21 @@ main ul{
   
   .pys-info h1{
     font-size: 20px;
+    letter-spacing: 0;
   }
   
+}
+
+@media (max-width: 345px){
+
+  .pys-info h1{
+    font-size: 15px;
+    
+  }
+
+  .pys-info a img{
+    width: 70px;
+    margin-top: 30px;
+  }
+
 }
