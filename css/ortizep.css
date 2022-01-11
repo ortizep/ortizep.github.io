@@ -83,7 +83,7 @@ main{
 .pys-image a img{
   width: 100%;
   margin: 10px;
-} 
+}
 
 .pys-menu{
   display: flex;
@@ -114,6 +114,36 @@ main{
 .pys-info{  
   border: double 10px var(--secondary-color);
   margin: 20px;   
+}
+
+.pys-info .image {
+    background: var(--primary-color);
+    margin: 0;
+}
+
+.pys-info .image a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pys-info .image a img {
+    width: 50%;
+}
+
+.pys-info .image2 {
+    background: var(--primary-color);
+    margin: 0;
+}
+
+.pys-info .image2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pys-info .image2 a img {
+    width: 25%;
 }
 
 .pys-info a{  
